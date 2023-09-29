@@ -33,3 +33,12 @@ Neet code solutions in Java
       * You iterate the array and calculate the complement (target - array[i])
       * You check if the Map key Set has this complement. If it does, you actually found your solution. If not you add the complement Map.
 
+## Two pointers
+
+* IsPalindrom
+  * Task
+    * Check if a given string is a palindrome after removing non-alphanumerical characters and doing it case-insensitive
+  * The trick
+    * We need to create two pointers on the array and go index by index. One pointer starts at the start of the string and goes up, the other one starts at the end.
+    * After comparing all digits we either find the difference or we don't.
+    * We also need to ignore non-alphanumeric values and take into account case-insensitivity
