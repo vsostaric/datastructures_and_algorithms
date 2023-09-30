@@ -42,3 +42,12 @@ Neet code solutions in Java
     * We need to create two pointers on the array and go index by index. One pointer starts at the start of the string and goes up, the other one starts at the end.
     * After comparing all digits we either find the difference or we don't.
     * We also need to ignore non-alphanumeric values and take into account case-insensitivity
+
+## Stacks
+
+* ValidParantheses
+  * Task
+    * Check if a string containing only "()[]{}" is a validly closed parantheses
+  * The trick
+    * The trick is to only understand Stack as a Datastructure. 
+    * The Stack is a LIFO structure. So what we do is we stack character by character. If we find a closing bracket ")]}" we check if the last added is the corresponding opening bracket.
