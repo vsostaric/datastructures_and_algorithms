@@ -49,5 +49,15 @@ Neet code solutions in Java
   * Task
     * Check if a string containing only "()[]{}" is a validly closed parantheses
   * The trick
-    * The trick is to only understand Stack as a Datastructure. 
+    * The trick is to only understand Stack as a data structure. 
     * The Stack is a LIFO structure. So what we do is we stack character by character. If we find a closing bracket ")]}" we check if the last added is the corresponding opening bracket.
+
+## Binary search
+
+* BinarySearch
+  * Task
+    * Implement a binary search on a sorted array. In this case the array is sorted in ascending order.
+  * The trick
+    * Binary search works on a sorted array. The main idea is to half the search area with each iteration.
+    * We start by finding the middle and check if the target is larger or smaller that the middle element, or is it in the upper or lower interval.
+    * We then cut the interval in half again and so forth until we do or don't find the result.

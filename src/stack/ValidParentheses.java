@@ -39,8 +39,8 @@ public class ValidParentheses {
 
     }
 
-    private static boolean isCorrespondingBracket(Character closing, Character opening) {
-        return ('(' == closing && ')' == opening) || ('[' == closing && ']' == opening) || ('{' == closing && '}' == opening);
+    private static boolean isCorrespondingBracket(Character opening, Character closing) {
+        return ('(' == opening && ')' == closing) || ('[' == opening && ']' == closing) || ('{' == opening && '}' == closing);
     }
 
 }
