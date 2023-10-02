@@ -79,3 +79,11 @@ Neet code solutions in Java
     * The trick
         * We have to iterate the array and at each point we always have to know what the minimum price in the past is.
           If we know that we can calculate the profit on each day while we iterate and see if it's a may profit.
+* LengthOfLongestSubstringWithoutRepeatingCharacters
+    * Task
+        * Given a string s, find the length of the longest substring without repeating characters.
+    * The trick
+        * We need to have a window and move the right part of the window through the string until we find a repeating
+          character. We keep track of all encountered characters in a set. When we do find it we move the left part of
+          the window clearing the set of those encountered characters until we again have a string with no repeating
+          characters and we can move the right side again.
