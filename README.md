@@ -87,3 +87,7 @@ Neet code solutions in Java
           character. We keep track of all encountered characters in a set. When we do find it we move the left part of
           the window clearing the set of those encountered characters until we again have a string with no repeating
           characters and we can move the right side again.
+
+## Linked lists
+* Reverese Linked List
+  * Task
